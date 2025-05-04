@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz - FURIA Fans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz FURIA Fans</h1>
+
+    <form id="quizForm">
+      <label>Qual seu jogo favorito da FURIA?</label><br>
+      <input type="text" id="jogoFavorito" required><br><br>
+
+      <label>Há quanto tempo você é fã da FURIA?</label><br>
+      <select id="tempoFã" required>
+        <option value="">Escolha</option>
+        <option value="Menos de 1 ano">Menos de 1 ano</option>
+        <option value="1-2 anos">1-2 anos</option>
+        <option value="3+ anos">3+ anos</option>
+      </select><br><br>
+
+      <label>Você já foi a um evento presencial da FURIA?</label><br>
+      <select id="evento" required>
+        <option value="">Escolha</option>
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+      </select><br><br>
+
+      <button type="submit">Enviar Respostas</button>
+    </form>
+    
+  </div>
+ 
+  <!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+<!-- Seu config -->
+<script src="firebase-config.js"></script>
+
+<!-- Seu script do quiz -->
+<script src="quiz-script.js"></script>
+
+</body>
+</html>

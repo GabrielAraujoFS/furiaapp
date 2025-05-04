@@ -1,0 +1,41 @@
+body {
+    background-color: #000; /* Preto FURIA */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #fff;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #0f0f0f;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background-color: #222;
+    color: #cc00ff; /* Um verde neon que combina bem */
+}
+
+td {
+    color: #ddd;
+}
+
+tr:hover {
+    background-color: #333;
+}
